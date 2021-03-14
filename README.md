@@ -2,4 +2,4 @@
 Clustering of the mass-radius relation for extrasolar and solar system planets.
 
 ## Introduction
-With over 4000 extrasolar planets discovered as of this writing, 
+As of this writing, astronomers have discovered over 4000 planets orbiting other stars. Known as extrasolar planets, or exoplanets for short, 
