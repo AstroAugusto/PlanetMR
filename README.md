@@ -52,7 +52,17 @@ PlanetMR consists of three files:
   In this file, the optimal number of clusters that a particular clustering algorithm could find, given the M-R data, is computed. This procedure follows the gap statistic method of Tibshirani et al. (2001). 
   
 ## Usage
-Simply run "planetMR_main.py", and it will prompt you to select one of the available clustering algorithms.  
+Simply run "planetMR_main.py", and it will prompt you to select one of the available clustering algorithms. It will also ask you to enter parameter values, depending on the algorithm that you choose. The following table lists the input parameters that each algorithm requires in PlanetMR:
+
+| Algorithm                               | Requested parameter |
+|     :---:                               |     :---:     |
+| Gaussian mixtures                       | Number of mixture components    |
+| Hierarchichal agglomerative clustering  | Linkage method dendrogram (y/n); number of clusters |
+| K-means clustering                      | Number of clusters |
+| DBSCAN                                  | 4-dist graph (y/n); &epsilon; ; minimum number of points in a neighborhood for one of them to be considered as a core point (see Ester et al., 1996)
+| Spectral clustering                     | Number of clusters | 
+| Mean shift                              | Bandwidth          |
+| Affinity propagation                    | Preference         |
 
 ## References
 - Chen, J. and Kipping, D. 2017, *Probabilistic forecasting of the masses and radii of other worlds*, The Astrophysical Journal, 834, 17
