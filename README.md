@@ -38,7 +38,7 @@ PlanetMR consists of three files:
    More algorithms can easily be incorporated.
    
  - ### planetMR_clustering.py
-   Here, the CSV file containing the actual data is read, and the chosen clustering algorithm is called. The data, clusters, and the resulting silhouette scores      are plotted. 
+   Here, the CSV file (called "NEA.csv" or "NEA_star.csv" in this repository) containing the data is read, and the chosen clustering algorithm is called. The data, clusters, and the resulting silhouette scores      are plotted. 
    
    This file contains the following functions (an italicized function name indicates that the function is optional):
    
