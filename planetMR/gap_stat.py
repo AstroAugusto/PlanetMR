@@ -17,7 +17,7 @@ from sklearn.cluster import DBSCAN
 from sklearn.cluster import SpectralClustering
 
 
-
+## Substitute path with the location of the NEA.csv file
 small_pdf = pd.read_csv('/Users/augusto_carballido/Desktop/AstrobioML/NEA.csv')
 
 ### ---------Build dataframe of solar system planets-----------
