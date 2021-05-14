@@ -57,9 +57,9 @@ Simply run "planetMR_main.py", and it will prompt you to select one of the avail
 | Algorithm                               | Requested parameter |
 |     :---:                               |     :---:     |
 | Gaussian mixtures                       | Number of mixture components    |
-| Hierarchichal agglomerative clustering  | Linkage method dendrogram (y/n); number of clusters |
+| Hierarchichal agglomerative clustering  | Linkage method; dendrogram (y/n); number of clusters |
 | K-means clustering                      | Number of clusters |
-| DBSCAN                                  | 4-dist graph (y/n); &epsilon; ; minimum number of points in a neighborhood for one of them to be considered as a core point (see Ester et al., 1996)
+| DBSCAN                                  | 4-dist graph (y/n); &epsilon [minimum number of points in a neighborhood for one of them to be considered as a core point (see Ester et al., 1996)]
 | Spectral clustering                     | Number of clusters | 
 | Mean shift                              | Bandwidth          |
 | Affinity propagation                    | Preference         |
